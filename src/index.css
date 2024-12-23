@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
 body {
     @apply bg-gradient-black-gold;
-    overflow-x: hidden;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    width: 100%;
 
 }
 
