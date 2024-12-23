@@ -8,7 +8,6 @@ export default {
     fontFamily: {
       'great-vibes': ['Great Vibes', 'sans-serif'],
       'forum': ['Forum', 'sans-serif'],
-      'garet': ['Garet', 'sans-serif'],
     },
     extend: {
       screens: {
