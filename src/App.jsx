@@ -7,6 +7,7 @@ import Lenis from "lenis";
 import {useEffect} from "react";
 import Footer from "./sections/Footer.jsx";
 import GoogleMaps from "./components/GoogleMaps.jsx";
+import 'lenis/dist/lenis.css';
 
 function App() {
     useEffect(() => {
