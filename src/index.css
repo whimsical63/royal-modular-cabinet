@@ -5,6 +5,7 @@
 body {
     @apply bg-gradient-black-gold;
     overflow-x: hidden;
+    box-sizing: border-box;
 
 }
 
