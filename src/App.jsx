@@ -13,6 +13,7 @@ function App() {
     useEffect(() => {
         const lenis = new Lenis({
             smooth: true,
+            smoothTouch: true,
             direction: 'vertical',
             gestureOrientation: 'vertical',
         });

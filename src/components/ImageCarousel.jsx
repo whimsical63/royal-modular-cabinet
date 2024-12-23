@@ -80,7 +80,7 @@ const ImageCarousel = ({ images }) => {
     }, [currentIndex, direction]);
 
     return (
-        <div className="flex justify-center items-center sm:h-[600px] xs:h-[400px] relative">
+        <div className="flex justify-center items-center sm:h-[600px] xs:h-[400px] relative overflow-hidden">
             {/* Previous Image */}
             <div
                 ref={prevImageRef}
