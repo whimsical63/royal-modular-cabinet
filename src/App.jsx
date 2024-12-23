@@ -9,14 +9,20 @@ import Footer from "./sections/Footer.jsx";
 import GoogleMaps from "./components/GoogleMaps.jsx";
 
 function App() {
-    // useEffect(() => {
-    //     const lenis = new Lenis();
-    //     function raf(time) {
-    //         lenis.raf(time)
-    //         requestAnimationFrame(raf)
-    //     }
-    //     requestAnimationFrame(raf)
-    // }, [])
+    useEffect(() => {
+        const lenis = new Lenis({
+            smooth: true,
+            direction: 'vertical',
+            gestureOrientation: 'vertical',
+        });
+
+        function raf(time) {
+            lenis.raf(time)
+            requestAnimationFrame(raf)
+        }
+
+        requestAnimationFrame(raf)
+    }, [])
 
     return (
         <div className="max-w-screen-2xl mx-auto">
@@ -24,7 +30,7 @@ function App() {
             <About/>
             <MissionVision/>
             <Goals/>
-            <Gallery />
+            <Gallery/>
             <Footer/>
             <GoogleMaps/>
         </div>
