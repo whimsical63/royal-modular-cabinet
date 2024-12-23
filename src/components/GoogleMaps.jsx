@@ -22,7 +22,7 @@ const GoogleMaps = () => {
                 ease: "power2.out",
                 scrollTrigger: {
                     trigger: mapRef.current,
-                    start: "top 40%",
+                    start: "top bottom",
                     toggleActions: "play none restart reverse",
                 },
             },
