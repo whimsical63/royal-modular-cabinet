@@ -27,7 +27,7 @@ function App() {
     }, [])
 
     return (
-        <div className="max-w-screen-2xl mx-auto">
+        <div className="xs:py-2 sm:py-0 max-w-screen-2xl mx-auto">
             <Hero/>
             <About/>
             <MissionVision/>

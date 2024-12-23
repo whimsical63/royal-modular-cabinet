@@ -103,9 +103,9 @@ const Hero = () => {
                         src="/assets/RMC.png"
                         alt="Royal Modular Cabinet Logo"
                     />
-                    <div className="mx-5 flex flex-col md:items-center sm:items-center xs:items-center">
+                    <div className="mx-5 flex flex-col sm:items-center xs:items-center">
                         <h1 ref={h1Ref} className="font-forum text-5xl font-bold text-white xs:text-center">ROYAL MODULAR CABINET</h1>
-                        <h2 ref={h2Ref} className="font-forum text-2xl text-white sm:text-center">Barangay Poblacion, Muntinlupa City</h2>
+                        <h2 ref={h2Ref} className="font-forum text-2xl text-white xs:text-center">Barangay Poblacion, Muntinlupa City</h2>
                     </div>
                 </div>
                 <div className="mt-16">
