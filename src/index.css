@@ -5,22 +5,22 @@
 body {
     @apply bg-gradient-black-gold;
     overflow-x: hidden;
-}
 
-@layer base {
-    @font-face {
-        font-family: "Great Vibes";
-        src: url('./fonts/GreatVibes-Regular.ttf');
+    @layer base {
+        @font-face {
+            font-family: "Great Vibes";
+            src: url('./fonts/GreatVibes-Regular.ttf');
+        }
+
+        @font-face {
+            font-family: "Forum";
+            src: url('./fonts/Forum-Regular.ttf');
+        }
+
+        @font-face {
+            font-family: "Garet";
+            src: url('./fonts/Garet-Book.ttf');
+        }
+
     }
-
-    @font-face {
-        font-family: "Forum";
-        src: url('./fonts/Forum-Regular.ttf');
-    }
-
-    @font-face {
-        font-family: "Garet";
-        src: url('./fonts/Garet-Book.ttf');
-    }
-
 }
