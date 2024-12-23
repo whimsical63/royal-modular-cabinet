@@ -19,7 +19,7 @@ function App() {
     }, [])
 
     return (
-        <div className="max-w-screen-2xl mx-auto xs:overflow-x-hidden sm:overflow-x-visible">
+        <div className="max-w-screen-2xl mx-auto">
             <Hero/>
             <About/>
             <MissionVision/>
