@@ -14,6 +14,7 @@ function App() {
         const lenis = new Lenis({
             smooth: true,
             smoothTouch: true,
+            syncTouch: true,
             direction: 'vertical',
             gestureOrientation: 'vertical',
         });
